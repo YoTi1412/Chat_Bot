@@ -11,7 +11,7 @@
                 "what's up?",
                 "how it is going?"
             ],
-            "respondes": [
+            "responses": [
                 "Hello!",
                 "Hey!",
                 "What can I do for you?"
@@ -29,7 +29,7 @@
                 "ciao",
                 "see ya"
             ],
-            "respondes": [
+            "responses": [
                 "Sad to see you go :(",
                 "Talk to you later",
                 "Goodbye!"
@@ -44,7 +44,7 @@
                 "how old is yoti",
                 "age?"
             ],
-            "respondes": [
+            "responses": [
                 "My owner YoTi ia 21 years old!",
                 "21 Years|",
                 "21 yo"
@@ -59,7 +59,7 @@
                 "Who are you?",
                 "can you tell me your name?"
             ],
-            "respondes": [
+            "responses": [
                 "You can call me Vegapunk",
                 "I'm Vegapunk!",
                 "I'm Vegapunk the assistant of YoTi"
@@ -73,7 +73,7 @@
                 "what companies am I investing in?",
                 "what am I doing in the markets?"
             ],
-            "respondes": [
+            "responses": [
                 "You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!!"
             ]
         },
@@ -84,7 +84,7 @@
                 "what are your hours",
                 "hours of operation"
             ],
-            "respondes": [
+            "responses": [
                 "24/7!"
             ]
         }
