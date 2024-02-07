@@ -13,17 +13,16 @@ nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
-
 lemmatizer = WordNetLemmatizer()
 
-intents = json.loads(open('intents.json').read())
+intents_data = json.loads(open('intents.json').read())
 
 words = []
 classes = []
 documents = []
 ignore_letters = ['?', '!', '.', ',']
 
-for intent in intents['intents']:
+for intent in intents_data:
     for pattern in intent['patterns']:
         word_list = nltk.word_tokenize(pattern)
         words.extend(word_list)
@@ -76,6 +75,7 @@ model.compile(loss='categorical_crossentropy',
               optimizer=sgd, metrics=['accuracy'])
 
 hist = model.fit(np.array(train_x), np.array(train_y),
-                 epochs=200, batch_size=5, verbose=1)
+                 epochs=500, batch_size=5, verbose=1)
 model.save('chatbotmodel.h5', hist)
 print('done')
+

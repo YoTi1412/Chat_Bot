@@ -36,8 +36,8 @@ def bag_of_words(sentence):
 def predict_class(sentence):
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
-    ERRORE_THRESHOLD = 0.25
-    results = [[i, r] for i, r in enumerate(res) if r > ERRORE_THRESHOLD]
+    ERROR_THRESHOLD = 0.25
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
@@ -45,14 +45,28 @@ def predict_class(sentence):
         return_list.append({'intent': classes[r[0]], 'probability': str(r[1])})
     return return_list
 
-
 def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']
-    list_of_intents = intents_json['intents']
+
+    if isinstance(intents_json, list):
+        list_of_intents = intents_json
+    elif isinstance(intents_json, dict) and 'intents' in intents_json:
+        list_of_intents = intents_json['intents']
+    else:
+        print("Invalid format for intents_json.")
+        return None
+
+    #print("Debugging: list_of_intents:", list_of_intents)  # Debugging line
+
     for i in list_of_intents:
-        if i['tag'] == tag:
-            result = random.choice(i['responses'])
-            break
+        if isinstance(i, dict) and 'tag' in i:
+            #print("Debugging: i['tag']:", i['tag'])  # Debugging line
+            if i['tag'] == tag:
+                result = random.choice(i.get('responses', []))
+                break
+    else:
+        result = "I'm sorry, I don't understand that."
+
     return result
 
 
@@ -60,6 +74,9 @@ print('Bot is running!!')
 
 while True:
     message = input("")
+    if message.lower() in ['exit', 'quit']:
+        break
     ints = predict_class(message)
     res = get_response(ints, intents)
     print(res)
+

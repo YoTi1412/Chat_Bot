@@ -1,92 +1,1269 @@
+[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "hey",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "an IID2 student with long hair hh",
+         "jesus christ",
+         "yoti",
+         "li7wak"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Mind Reader.",
+      "I'm Mind Reader",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college"
+   ],
+   "responses": [
+      "College is open 8am-5pm Monday-Saturday!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact at: NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at UNI?",
+      "branches available at your college?",
+      "what are the courses in UNI?",
+      "what are branches in UNI?",
+      "what are courses in UNI?",
+      "branches available in UNI?",
+      "can you tell me the courses available in UNI?",
+      "can you tell me the branches available in UNI?",
+      "computer engineering?",
+      "computer",
+      "Computer engineering?",
+      "it",
+      "IT",
+      "Information Technology",
+      "AI/Ml",
+      "Mechanical engineering",
+      "Chemical engineering",
+      "Civil engineering"
+   ],
+   "responses": [
+      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "how much is the fees"
+   ],
+   "responses": [
+      "For Fee detail contact kamalcherkaoui.2001@gmail.com or taliban.abdo@gmail.com"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "i know the location but im too lazy to provide it exactly ."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel servive",
+      "hostel location",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "For hostel detail contact kamalcherkaoui.2001@gmail.com or taliban.abdo@gmail.com"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "For event detail contact kamalcherkaoui.2001@gmail.com or taliban.abdo@gmail.com"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "document to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admision",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "To know more about document required visit ensa khouribga website or ask samir ."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "My College has total 2 floors "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there any library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen with variety of food available"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (Place name)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "computerhod",
+   "patterns": [
+      "Who is computer HOD",
+      "Where is computer HOD",
+      "computer hod",
+      "name of computer hod"
+   ],
+   "responses": [
+      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "extchod",
+   "patterns": [
+      "Who is extc HOD",
+      "Where is  extc HOD",
+      "extc hod",
+      "name of extc hod"
+   ],
+   "responses": [
+      "Different school wise hod are different.So be more clear with your school or department"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "principal",
+   "patterns": [
+      "what is the name of principal",
+      "whatv is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process"
+   ],
+   "responses": [
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship"
+   ],
+   "responses": [
+      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "For IT, Computer and extc 60 per branch and seat may be differ for different department."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college contact this number: ADD NUMBER"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-soordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hod",
+   "patterns": [
+      "hod",
+      "hod name",
+      "who is the hod"
+   ],
+   "responses": [
+      "HODs differ for each branch, please be more specific like: (HOD it)"
+   ],
+   "context_set": ""
+},{
+   "tag": "faculty",
+   "patterns": [
+     "faculty members",
+     "faculty contact",
+     "faculty qualifications",
+     "faculty expertise",
+     "faculty details"
+   ],
+   "responses": [
+     "Our university has a team of highly qualified faculty members. You can find more information about our faculty <a target=\"_blank\" href=\"FACULTY LINK\">here</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "admissions",
+   "patterns": [
+     "admission process",
+     "eligibility criteria",
+     "required documents",
+     "admission deadlines",
+     "selection criteria"
+   ],
+   "responses": [
+     "Our university has a well-defined admission process. You can find detailed information about the admission process, eligibility criteria, required documents, and deadlines on our <a target=\"_blank\" href=\"ADMISSIONS LINK\">admissions page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "campus-life",
+   "patterns": [
+     "campus facilities",
+     "clubs and organizations",
+     "student activities",
+     "campus events",
+     "student support services"
+   ],
+   "responses": [
+     "Our university offers a vibrant campus life with a wide range of facilities, clubs, organizations, student activities, and support services. You can explore more about campus life <a target=\"_blank\" href=\"CAMPUS LIFE LINK\">here</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "courses",
+   "patterns": [
+     "What courses do you offer?",
+     "Tell me about the available courses",
+     "List of courses",
+     "Course options",
+     "Fields of study"
+   ],
+   "responses": [
+     "Our university offers a wide range of courses including Computer Science, Engineering, Business Administration, Psychology, Biology, and more. You can explore the complete list of courses on our <a target=\"_blank\" href=\"COURSES LINK\">courses page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "admission-requirements",
+   "patterns": [
+     "What are the admission requirements?",
+     "What do I need to apply?",
+     "Admission eligibility",
+     "Required documents for admission",
+     "Minimum GPA for admission"
+   ],
+   "responses": [
+     "To be eligible for admission, you need to meet certain requirements including academic qualifications, standardized test scores, and submission of necessary documents. The specific admission requirements can be found on our <a target=\"_blank\" href=\"ADMISSION REQUIREMENTS LINK\">admission requirements page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "scholarships",
+   "patterns": [
+     "Are there any scholarships available?",
+     "What scholarships do you offer?",
+     "Scholarship opportunities",
+     "How can I apply for a scholarship?",
+     "Scholarship criteria"
+   ],
+   "responses": [
+     "Our university provides various scholarship opportunities to deserving students. You can find detailed information about the available scholarships, eligibility criteria, and application process on our <a target=\"_blank\" href=\"SCHOLARSHIPS LINK\">scholarships page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "fees",
+   "patterns": [
+     "What are the tuition fees?",
+     "How much does it cost to study at your university?",
+     "Tuition fees for international students",
+     "Fee payment options",
+     "Financial aid"
+   ],
+   "responses": [
+     "The tuition fees may vary depending on the program and student category. You can find detailed information about the tuition fees, fee payment options, and financial aid opportunities on our <a target=\"_blank\" href=\"FEES LINK\">fees and financial aid page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "accommodation",
+   "patterns": [
+     "Is accommodation available?",
+     "Can I stay on campus?",
+     "Housing options",
+     "Residential facilities",
+     "How to apply for accommodation"
+   ],
+   "responses": [
+     "Our university provides on-campus accommodation for students. We offer a range of housing options with various facilities. You can find more information about accommodation and the application process on our <a target=\"_blank\" href=\"ACCOMMODATION LINK\">accommodation page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "campus-tour",
+   "patterns": [
+     "Can I have a campus tour?",
+     "How can I schedule a campus visit?",
+     "Tour of the university",
+     "Exploring the campus",
+     "Campus facilities"
+   ],
+   "responses": [
+     "We offer campus tours for prospective students and visitors. To schedule a campus visit, please fill out the form on our <a target=\"_blank\" href=\"CAMPUS TOUR LINK\">campus tour page</a>. Our staff will get in touch with you to confirm the details."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "not_reco",
+   "patterns": [
+      "skdfjlskj weriu",
+      "ouiewyrlkj xkljv",
+      "xnmbvmxc cnvm, zcxv",
+      "oiqweuoiqwe rergh sfdv",
+      "zxcvlkjsdf zxcv sdfg",
+      "qweoiuqwoei qpoiue tyuio",
+      "kjsdflkjwer zxcv weklrj",
+      "zxmncvxz jfowe",
+      "qweoriuqwoei dfgrty",
+      "asdjflkjasd bghnm",
+      "mncvxz zxcvbn",
+      "qoiweuqwoei",
+      "lkjwerlkj lkjwer",
+      "zxcvzxcv lkjweoir",
+      "qwoeiuqwoei kjwerlk",
+      "jlkwerjlk",
+      "xmcnv xcvbn",
+      "wqerwqer dfgjk",
+      "jklwer ljkwer",
+      "qoiweuqwoei",
+      "lkjwerlkj lkjfrwer erkhr",
+      "zxc43rzxcv lkjweoir rewhjgfhjre",
+      "qwoedfrfiuqwoei kjwerlk dekrhr  tyueii",
+      "jlkwerjlk  balls",
+      "xmcnv xcvbn ",
+      "wqerwqer dfgjk lkjhflr",
+      "jklwer ljkwer frfr",
+      "jklwer ekrfh ljkwer",
+      "qoiw uqwo ei",
+      "lkjw erlkj lkjfrwer erkhr",
+      "zxc4 3rzxcv lkjweoir rewhjgfhjre",
+      "qwoedf fiuqwoei kjwerlk dekrhr  tyueii",
+      "jlkwe jlk  balls",
+      "xmcnv xcrfrvbn ",
+      "wqerwqer dffrfffgjk lkjhflr",
+      "jklwer ljkffwer frfr",
+      "mncv zxvffbnm"
+   ],
+   "responses": [
+      "I did not understand that."
+   ],
+   "context_set": ""
+},
+
+ {
+   "tag": "academic-calendar",
+   "patterns": [
+     "What is the academic calendar?",
+     "Important dates and deadlines",
+     "Exam schedule",
+     "When does the semester start?",
+     "Holidays and breaks"
+   ],
+   "responses": [
+     "The academic calendar includes important dates such as the start of the semester, registration deadlines, exam schedules, and holidays. You can find the complete academic calendar for the current academic year on our <a target=\"_blank\" href=\"ACADEMIC CALENDAR LINK\">academic calendar page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "student-services",
+   "patterns": [
+     "What student services do you offer?",
+     "Support services",
+     "Counseling services",
+     "Career guidance",
+     "Health services"
+   ],
+   "responses": [
+     "We provide a range of student services to support your academic and personal success. These services include counseling, career guidance, health services, library facilities, student clubs and organizations, and more. You can explore the various student services on our <a target=\"_blank\" href=\"STUDENT SERVICES LINK\">student services page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "research-opportunities",
+   "patterns": [
+     "Are there research opportunities for students?",
+     "Undergraduate research programs",
+     "Research facilities",
+     "Faculty research projects",
+     "Getting involved in research"
+   ],
+   "responses": [
+     "We encourage students to participate in research activities. We offer various research opportunities, including undergraduate research programs and collaborations with faculty members. You can find more information about research opportunities and ongoing projects on our <a target=\"_blank\" href=\"RESEARCH OPPORTUNITIES LINK\">research opportunities page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "career-services",
+   "patterns": [
+     "Do you have career services?",
+     "Job placement assistance",
+     "Internship opportunities",
+     "Resume building",
+     "Career fairs"
+   ],
+   "responses": [
+     "Our university provides comprehensive career services to help students with job placement, internships, resume building, interview preparation, and career development. You can learn more about our career services and upcoming events on our <a target=\"_blank\" href=\"CAREER SERVICES LINK\">career services page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "admissions",
+   "patterns": [
+     "How do I apply for admissions?",
+     "Admission requirements",
+     "Application process",
+     "Admission deadlines",
+     "Entrance exams"
+   ],
+   "responses": [
+     "To apply for admissions, please visit our <a target=\"_blank\" href=\"ADMISSIONS LINK\">admissions page</a>. It provides detailed information about admission requirements, the application process, admission deadlines, and any required entrance exams."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "financial-aid",
+   "patterns": [
+     "What financial aid options are available?",
+     "Scholarships",
+     "Grants",
+     "Loans",
+     "Work-study programs"
+   ],
+   "responses": [
+     "We offer various financial aid options, including scholarships, grants, loans, and work-study programs. To learn more about the financial aid opportunities available at our university, please visit our <a target=\"_blank\" href=\"FINANCIAL AID LINK\">financial aid page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "housing",
+   "patterns": [
+     "Is on-campus housing available?",
+     "Residence halls",
+     "Housing options",
+     "Living on campus",
+     "Housing application process"
+   ],
+   "responses": [
+     "We provide on-campus housing options for students. Our residence halls offer comfortable and convenient living spaces. To learn more about housing options and the application process, please visit our <a target=\"_blank\" href=\"HOUSING LINK\">housing page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "student-life",
+   "patterns": [
+     "What is student life like on campus?",
+     "Student clubs and organizations",
+     "Extracurricular activities",
+     "Events and campus activities",
+     "Sports and recreation"
+   ],
+   "responses": [
+     "Student life on our campus is vibrant and diverse. We have a wide range of student clubs and organizations, offering opportunities for involvement in various interests and hobbies. Additionally, we organize events, campus activities, and provide sports and recreation facilities. You can explore more about student life on our <a target=\"_blank\" href=\"STUDENT LIFE LINK\">student life page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "academic-programs",
+   "patterns": [
+     "What academic programs do you offer?",
+     "Undergraduate programs",
+     "Graduate programs",
+     "Majors and minors",
+     "Program requirements"
+   ],
+   "responses": [
+     "We offer a wide range of academic programs, including undergraduate and graduate programs. Our programs cover various disciplines, and you can choose from a variety of majors and minors. To explore our academic programs and their requirements, please visit our <a target=\"_blank\" href=\"ACADEMIC PROGRAMS LINK\">academic programs page</a>."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "weather",
+   "patterns": [
+     "What's the weather like today?",
+     "Weather forecast",
+     "Is it going to rain?",
+     "Temperature in [city name]"
+   ],
+   "responses": [
+     "To get the latest weather information, you can check a reliable weather website or use a weather app on your smartphone. They provide real-time weather updates, forecasts, and temperature details for your location."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "time",
+   "patterns": [
+     "What's the current time?",
+     "Time in [city name]",
+     "What time is it now?",
+     "Can you tell me the time?"
+   ],
+   "responses": [
+     "To know the current time, you can check the clock on your device or use a world clock website or app. They provide accurate time information for different time zones."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "directions",
+   "patterns": [
+     "How do I get to [destination]?",
+     "Directions to [location]",
+     "How far is [location] from here?",
+     "Navigate to [destination]"
+   ],
+   "responses": [
+     "To get directions to a specific destination, you can use a navigation app like Google Maps. Simply enter your current location and the destination, and it will provide you with step-by-step directions and estimated travel time."
+   ],
+   "context_set": ""
+ },
+ {
+   "tag": "ensa_khouribga",
+   "patterns": [
+      "Tell me about ENSA Khouribga",
+      "What is ENSA Khouribga?",
+      "What programs does ENSA Khouribga offer?",
+      "How do I contact ENSA Khouribga?",
+      "How can I get admission in ENSA Khouribga?",
+      "Where is ENSA Khouribga located?"
+   ],
+   "responses": [
+      "ENSA Khouribga is a Moroccan public engineering school within the Sultan Moulay Souliman University of Beni Mellal, created in 2007. It offers programs in Computer engineering, Telecommunication and Networks engineering, Engineering Processes for Energy and the Environment, and Electrical engineering. The admission is done based on the average obtained in the baccalaureate and a written test for preselected candidates. You can also integrate the school in the Engineer Cycle at the bac+2 level via a competition. The school's contact email is contact.ensak@usms.ma and the telephone number is (+212) 523492335 or (+212) 618534372. The school is located at École Nationale des Sciences AppliquéesBd Béni Amir BP 77 Khouribga - Maroc, Khouribga, Maroc."
+   ],
+   "context_set": ""
+},
 {
-    "intents": [
-        {
-            "tag": "greetings",
-            "patterns": [
-                "hello",
-                "hey",
-                "hi",
-                "good day",
-                "greetings",
-                "what's up?",
-                "how it is going?"
-            ],
-            "responses": [
-                "Hello!",
-                "Hey!",
-                "What can I do for you?"
-            ]
-        },
-        {
-            "tag": "goodbye",
-            "patterns": [
-                "cya",
-                "See you later",
-                "Goodbye",
-                "i am leaving",
-                "have a good day",
-                "bye",
-                "ciao",
-                "see ya"
-            ],
-            "responses": [
-                "Sad to see you go :(",
-                "Talk to you later",
-                "Goodbye!"
-            ]
-        },
-        {
-            "tag": "age",
-            "patterns": [
-                "how old",
-                "how old are you",
-                "what is your age",
-                "how old is yoti",
-                "age?"
-            ],
-            "responses": [
-                "My owner YoTi ia 21 years old!",
-                "21 Years|",
-                "21 yo"
-            ]
-        },
-        {
-            "tag": "name",
-            "patterns": [
-                "What is your name",
-                "what should i call you",
-                "whats your nae?",
-                "Who are you?",
-                "can you tell me your name?"
-            ],
-            "responses": [
-                "You can call me Vegapunk",
-                "I'm Vegapunk!",
-                "I'm Vegapunk the assistant of YoTi"
-            ]
-        },
-        {
-            "tag": "stocks",
-            "patterns": [
-                "what stocks do I own?",
-                "how are my shares?",
-                "what companies am I investing in?",
-                "what am I doing in the markets?"
-            ],
-            "responses": [
-                "You own the following shares: ABBV, AAPL, FB, NVDA and an ETF of the S&P 500 Index!!"
-            ]
-        },
-        {
-            "tag": "hours",
-            "patterns": [
-                "when are you guys open",
-                "what are your hours",
-                "hours of operation"
-            ],
-            "responses": [
-                "24/7!"
-            ]
-        }
-    ]
+   "tag": "ensa_khouribga_contact",
+   "patterns": [
+      "How can I contact ENSA Khouribga?",
+      "What is the contact info for ENSA Khouribga?",
+      "I need to get in touch with ENSA Khouribga",
+      "ENSA Khouribga contact details",
+      "ENSA Khouribga phone number",
+      "ENSA Khouribga email",
+      "ENSA Khouribga address"
+   ],
+   "responses": [
+      "You can contact ENSA Khouribga through the following: Website: http://ensak.usms.ac.ma/ensak/, Email: contact.ensak@usms.ma, Phone: (+212) 523492335/ (+212) 618534372. The address is École Nationale des Sciences AppliquéesBd Béni Amir BP 77 Khouribga - Maroc, Khouribga, Maroc."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_courses",
+   "patterns": [
+      "What courses does ENSA Khouribga offer?",
+      "Tell me about the courses at ENSA Khouribga",
+      "What programs are available at ENSA Khouribga?",
+      "What fields of study are at ENSA Khouribga?"
+   ],
+   "responses": [
+      "ENSA Khouribga offers various programs including Computer Engineering, Telecommunication and Networks Engineering, Engineering Processes for Energy and the Environment, Electrical Engineering, Data Engineering and Networks, and Process Engineering. The study duration is 5 years for these engineering programs. \n\n**Source 1**: [Wikipedia](https://en.wikipedia.org/wiki/%C3%89cole_nationale_des_sciences_appliqu%C3%A9es_de_Khouribga)\n\n**Source 2**: [TawjihMaroc](https://www.tawjihmaroc.com/school/61)\n\n**Source 3**: [ENSAK](https://ensak.usms.ac.ma/ensak/formation-initiale/)"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_admissions",
+   "patterns": [
+      "How can I get into ENSA Khouribga?",
+      "What is the admission process for ENSA Khouribga?",
+      "Tell me about the ENSA Khouribga entrance exam",
+      "How to apply to ENSA Khouribga?"
+   ],
+   "responses": [
+      "Admission to ENSA Khouribga is based on a selection process that involves a written exam for pre-selected candidates based on their baccalaureate results. It's also possible to integrate into the Engineering Cycle after two years of post-BAC studies via a competitive exam. Students from preparatory classes, DUT, DEUG or Licences from Faculties of Sciences (FS) and Faculties of Sciences and Techniques (FST) are eligible for this. Admission is also possible for students who have obtained a Master's degree.\n\n**Source 1**: [Etudiant](https://www.etudiant.ma/etablissements/ensa-khouribga/concours)\n\n**Source 2**: [ENSAK](https://ensak.usms.ac.ma/ensak/formation-initiale/)"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_academic_structure",
+   "patterns": [
+      "What is the academic structure at ENSA Khouribga?",
+      "How are the courses structured at ENSA Khouribga?",
+      "Tell me about the course structure at ENSA Khouribga",
+      "What is the curriculum at ENSA Khouribga?"
+   ],
+   "responses": [
+      "The academic structure at ENSA Khouribga is divided into two phases. The first two years are preparatory, providing solid knowledge in mathematics, physics, and an introduction to computer science. The next three years, known as the Engineering Cycle, consist of six semesters of specialized training leading to an Engineering degree. Each semester includes 6 to 8 modules, and the university year is composed of two semesters with 16 to 18 weeks of teaching and evaluation. The last semester is dedicated to an end-of-study project, which includes a professional internship. ENSA Khouribga also offers a Master's program that lasts two years and consists of four semesters.\n\n**Source**: [ENSAK](https://ensak.usms.ac.ma/ensak/formation-initiale/)"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_admission",
+   "patterns": [
+      "How can I get admitted to ENSA Khouribga?",
+      "What is the admission process for ENSA Khouribga?",
+      "ENSA Khouribga admission requirements",
+      "What do I need to get into ENSA Khouribga?",
+      "ENSA Khouribga entrance exam"
+   ],
+   "responses": [
+      "Admission to ENSA Khouribga is based on a preselection of candidates based on the general average obtained at the baccalaureate. A written exam is then conducted for preselected candidates. It's also possible to join the Engineering Cycle at ENSA Khouribga at the bac+2 level via a competitive exam. The formation then lasts 3 years after 2 years post-BAC. This type of admission is open to students of preparatory classes, DUT, DEUG or Licenses from Faculties of Sciences (FS) and Faculties of Science and Technology (FST). Admission to the 2nd year of the Engineering Cycle (4th year) is possible for students who have obtained a Master's degree."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_courses",
+   "patterns": [
+      "What courses are offered at ENSA Khouribga?",
+      "What are the study programs at ENSA Khouribga?",
+      "ENSA Khouribga course details",
+      "Study options at ENSA Khouribga"
+   ],
+   "responses": [
+      "ENSA Khouribga offers the following engineering programs: Computer Engineering, Telecommunication and Networks Engineering, Engineering Processes for Energy and the Environment, Electrical Engineering, Data Engineering and Computer Science, Network Engineering and Computer Science. The duration of study for these programs is 5 years."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_location",
+   "patterns": [
+      "Where is ENSA Khouribga located?",
+      "ENSA Khouribga address",
+      "How can I get to ENSA Khouribga?",
+      "ENSA Khouribga location"
+   ],
+   "responses": [
+      "ENSA Khouribga is located at École Nationale des Sciences AppliquéesBd Béni Amir BP 77 Khouribga - Maroc, Khouribga, Maroc."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_contact",
+   "patterns": [
+      "How can I contact ENSA Khouribga?",
+      "ENSA Khouribga contact information",
+      "ENSA Khouribga phone number",
+      "ENSA Khouribga email address"
+   ],
+   "responses": [
+      "You can contact ENSA Khouribga through the following: Site: http://ensak.usms.ac.ma/ensak/, Email: contact.ensak@usms.ma, Phone: (+212) 523492335/ (+212) 618534372."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_masters",
+   "patterns": [
+      "Does ENSA Khouribga offer master's programs?",
+      "ENSA Khouribga master's degree",
+      "Master's courses at ENSA Khouribga",
+      "ENSA Khouribga postgraduate programs"
+   ],
+   "responses": [
+      "ENSA Khouribga offers a master's program that spans over two years and comprises four semesters. The first two semesters consist of fundamental studies specific to the character of the Master. Semesters 3 and 4 are semesters of deepening, specialization, and initiation to research for the Master, or of deepening, specialization, and professionalization for the specialized Master."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_career_opportunities",
+   "patterns": [
+      "What career opportunities does ENSA Khouribga provide?",
+      "Job prospects after ENSA Khouribga",
+      "Career after ENSA Khouribga"
+   ],
+   "responses": [
+      "Graduates of ENSA Khouribga have numerous professional opportunities in various sectors such as study and consulting offices, industries, the automotive energy field, network and computer science, and the public and private sectors."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_admission_criteria",
+   "patterns": [
+      "What are the admission criteria for ENSA Khouribga?",
+      "How to get admission in ENSA Khouribga?",
+      "ENSA Khouribga admission requirements",
+      "ENSA Khouribga admission process"
+   ],
+   "responses": [
+      "Admission to ENSA Khouribga is based on the following: preselection of candidates based on the average grade obtained at the baccalaureate, and a written contest for preselected candidates. It is also possible to integrate into the Engineering Cycle at the bac+2 level through a competition, with the formation then lasting 3 years after 2 years post-BAC. This type of admission is open to students from preparatory classes, DUT, DEUG, or Licenses from the Faculties of Science (FS) and Faculties of Science and Techniques (FST). Admission in the 2nd year of the Engineering Cycle (4th year) is possible for students who have obtained a Master's degree."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_curriculum",
+   "patterns": [
+      "What is the curriculum at ENSA Khouribga?",
+      "ENSA Khouribga course structure",
+      "ENSA Khouribga academic structure",
+      "What subjects are taught at ENSA Khouribga?"
+   ],
+   "responses": [
+      "ENSA Khouribga's curriculum is spread over five years: two preparatory years and three years of the engineering cycle. The first two years enable students to acquire solid knowledge in mathematics and physics, as well as an introduction to computer science. The engineering cycle is a higher education training curriculum lasting six semesters. Each semester includes 6 to 8 modules. The five first semesters of engineering training consist of three blocks of modules: scientific and technical base and specialization modules, management modules, and languages, communication, and ICT modules. The sixth semester is dedicated to the end-of-study project (PFE)."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "ensa_khouribga_final_year_project",
+   "patterns": [
+      "What is the final year project at ENSA Khouribga?",
+      "What does the end-of-study project at ENSA Khouribga involve?",
+      "ENSA Khouribga final project",
+      "PFE at ENSA Khouribga"
+   ],
+   "responses": [
+      "The final year project at ENSA Khouribga is a stage relative to the end-of-study project (PFE). This stage allows students to experience professional life and adapt theoretical knowledge to industrial reality, to carry out a synthesis work, to develop initiative and group work, and to strengthen bibliographic research, which facilitates the professional integration of future graduates."
+   ],
+   "context_set": ""
 }
+]
